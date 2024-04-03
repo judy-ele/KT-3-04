@@ -1,3 +1,8 @@
-Cách chạy project
-1. Mở cmd, run "py .\kt.py"
-2. Vào file test rồi bấm nút run bên trái ̣( trùng vị trí các nút breakpoint ) để chạy test case Mô tả bài toán: Viết một chương trình trong Python để kiểm tra một số nguyên n có phải là số nguyên tố hay không.
+1.	Bài toán đặt ra: Tính toán tổng chi phí vé Những thành phố mơ màng the  Hanoi Tour mà người mua phải trả dựa trên các thông tin đầu vào:
++ Loại vé: Vé hạng thường (thuong) hoặc vé hạng VIP (vip)
+•	Vé hạng thường: giá 500.000đ/vé
+•	Vé hạng VIP: giá 700.000đ/vé
++ Hình thức thanh toán: Thanh toán bằng Momo (momo), VnPay (vnpay) hoặc các hình thức khác (khac)
+•	Thanh toán bằng Momo: giảm 50.000đ/vé áp dụng cho cả hai loại vé
+•	Thanh toán bằng VnPay: giảm 10% cho hạng vé VIP
+•	Thanh toán bằng hình thức khác: giá niêm yết
