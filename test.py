@@ -18,14 +18,23 @@ def kiem_tra_ket_qua(a, s1, s2, ket_qua_du_kien):
     else:
         print("Test case failed! Kết quả thực tế:", ket_qua_thuc_te, "Kết quả kỳ vọng:", ket_qua_du_kien)
 
-# Test case 1: s1 là "thuong", s2 là "momo"
-kiem_tra_ket_qua(3, "thuong", "momo", 1500000)
+# Test case 1: a là số nguyên âm
+kiem_tra_ket_qua("khong the tinh do so luong ve khong hop le")
 
-# Test case 2: s1 là "vip", s2 là "momo"
-kiem_tra_ket_qua(2, "vip", "momo", 1300000)
+# Test case 2: s1 là "thuong", s2 là "khac"
+kiem_tra_ket_qua(1, "thuong", "khac", 500000)
 
-# Test case 3: s1 là "vip", s2 là "vnpay"
-kiem_tra_ket_qua(4, "vip", "vnpay", 2520000)
+# Test case 3: s1 là "vip", s2 là "momo"
+kiem_tra_ket_qua(1, "vip", "momo", 650000)
 
-# Test case 4: s1 là "thuong", s2 là "vnpay"
-kiem_tra_ket_qua(5, "thuong", "vnpay", 2500000)
+# Test case 4: s1 là "vip", s2 là "vnpay"
+kiem_tra_ket_qua(1, "vip", "vnpay", 630000)
+
+# Test case 5: s1 là "thuong", s2 là "momo"
+kiem_tra_ket_qua(1, "thuong", "momo", 450000)
+
+# Test case 6: s1 là "vip", s2 là "khac"
+kiem_tra_ket_qua(1, "vip", "khac", 630000)
+
+# Test case 7: s1 là "thuong", s2 là "vnpay"
+kiem_tra_ket_qua(1, "thuong", "vnpay", 700000)
